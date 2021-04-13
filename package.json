@@ -1,0 +1,22 @@
+{
+  "name": "python-adt",
+  "version": "1.0.0",
+  "description": "Testing out implementing Algebraic Data Types in python. Trying out static type checkers with python.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lj-ditrapani/python-adt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lj-ditrapani/python-adt/issues"
+  },
+  "homepage": "https://github.com/lj-ditrapani/python-adt#readme",
+  "dependencies": {
+    "pyright": "^1.1.130"
+  }
+}
