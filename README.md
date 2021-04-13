@@ -1,4 +1,5 @@
 Testing out implementing Algebraic Data Types in python.
+Trying out static type checkers with python.
 
 Setup
 =====
@@ -14,3 +15,11 @@ Run
 ===
 
     mypy adt.py && python adt.py
+
+    # This fails with Invalid type annotation 'NoReturn' for x
+    # [invalid-annotation] NoReturn is not allowed
+    pytype adt.py
+    # This one takes awhile; killed after 2 min;
+    # maybe because my virtual env folder is inside my project directory?
+    # I wonder if it is trying to typecheck all installed python packages.
+    pyre
