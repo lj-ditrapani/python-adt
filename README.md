@@ -10,11 +10,12 @@ Then setup a python virtual env.
     python -m venv .venv
     source .venv/bin/activate
     python -m pip install -r requirements.txt
+    npm install
 
 Run
 ===
 
-    mypy adt.py && python adt.py
+    ./node_modules/.bin/pyright && mypy adt.py && python adt.py
 
     # This fails with Invalid type annotation 'NoReturn' for x
     # [invalid-annotation] NoReturn is not allowed
